@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project Speed</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">BACK TO HOME</a></h1>
+					</header>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>PROJECT SPEED</h2>
+								<p>GAME & LEVEL DESIGN</p>
+							</div>
+						</header>
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+									<span class="image main"><img src="images/SpeedLevel7.png" alt="" /></span>
+									<!--Intro-->
+									<h3 class="major">PROJECT SUMMARY</h3>
+
+									<p>
+										This is a small prototype I’ve been working on for the last few weeks. On this page, I will focus on the level design process.
+									</p>
+
+									<p>
+										The goal of the project was to create a small prototype that focuses on movement mechanics, the visuals were secondary as I wanted to focus on the gameplay.
+										I spent around a month working on the project.
+										If you are interested in the gameplay design process, I wrote a devlog <a href="https://jorgerodriguezdev.itch.io/project-speed/devlog/915989/project-speed-main-idea-changes" target="_blank">here</a> but just in case here's a summary of the game:
+									</p>
+
+									Game Summary
+									<ul>
+										<li>The Player can only move and use the left and right weapons.</li>
+										<li>Each weapon has a different condition and effect that helps the player go faster.</li>
+										<li>Speed increases with the use of a weapon and slowly decreases while on the ground.</li>
+										<li>The goal is to reach the end as fast as possible.</li>
+									</ul>
+
+									<!--Links-->
+									<p>Here's a Youtube video showcasing the final level and the itchio link</p>
+
+
+									<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+										<div class="wp-block-embed__wrapper">
+											<div class="nv-iframe-embed">
+												<iframe width="1200" height="675" src="https://www.youtube.com/embed/NoQINWpdHm4?si=ho63zcZNmlPpkldv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+											</div>
+										</div>
+									</figure>
+
+									<p>
+									</p>
+
+									<div style="text-align:center">
+										<iframe frameborder="0" src="https://itch.io/embed/3390912?linkback=true&amp;border_width=5&amp;bg_color=00345f&amp;fg_color=ffffff&amp;link_color=ce7e23" width="560" height="175"><a href="https://jorgerodriguezdev.itch.io/project-speed">Project Speed by JorgeRodriguezDev</a></iframe>
+									</div>
+
+
+
+									<!--Desarrollo-->
+									<h3 class="major">LEVEL DESIGN PROCESS</h3>
+
+									<p>
+										From the very beginning I tried to keep a very iterative process. Both the game and the design process changed through out the development quite a bit, we can divide these changes in 3 different stages:
+									</p>
+
+									<!--S1-->
+									<h4>STAGE 1 Figuring things out</h4>
+
+									<p>
+										At this point, there were some things already decided but I was still figuring how the game will end up working so I was still testing some of the mechanics and even the main gameplay loop.
+
+									</p>
+
+									<p>
+										Originally the game was going to focus a lot more on a puzzle like approach.
+										The players would need to pick resources to use skills and they would need to manage and properly use those skills at the right moment to find the fastest path. This basically meant that the paths the player could take were very restrictive.
+										During this stage I started by doing the design levels on Inkscape using a grid to keep consistency and respect the current metrics.
+
+									</p>
+
+									<p>
+										At this point I had 4 levels showing 3 weapons.
+									</p>
+
+
+									<div class="ImageUnderText">
+										<span class="image main"><img src="images/Speed_OldMap.png" alt="" /></span>
+										<p>2D Layout of one of the old levels</p>
+									</div>
+
+									<!--S2-->
+									<h4>STAGE 2 Addressing the problems</h4>
+
+									<p>
+										After doing some playtests the game changed a lot. I removed one of the weapons and moved away from the puzzle aspect of the game focusing exclusively on the movement and use of skills.
+										I wanted to give players more freedom to express themselves and create their own paths.
+									</p>
+
+									<p>
+										During my previous design sessions I noticed certain patterns and ideas that I kept using so I decided to stablish a level design philosophy for this project:
+									</p>
+
+									<ul>
+										<li>Each level has a main focus/theme.</li>
+										<li>Each level is divided in 4 sections addressing the main level theme and building on previous ideas.</li>
+										<li>There is at least 1 intended shortcut at some point during the level.</li>
+										<li>Aside from the shortcut, the final section has two different ways to be completed, one of them harder but faster.</li>
+
+									</ul>
+
+									<p>
+										These “rules” gave me a structure to help me create new levels faster while making sure that I was respecting and reinforcing the main pillars of the game.
+										Thinking in sections also helped me come up with small gameplay concepts that may not fit in the current level I was working on, but could be explored in a future level.
+									</p>
+
+									<div class="ImageUnderText">
+										<span class="image main"><img src="images/Speed_TestLevel.png" alt="" /></span>
+										<p>Level used for testing with specific areas to test height, forward distance, slopes, wallrun…</p>
+									</div>
+
+									<p>
+										At this point I had 5 completely new levels showcasing the 6 weapons.
+									</p>
+
+									<!--S3-->
+									<h4>STAGE 3 Everything in its right place</h4>
+
+
+									<p>
+										After a second round of playtest things were looking a lot better than the last time.
+										The current levels needed some tweaks (and in some cases to be redone) but that was to be expected after the game changing so much.
+										I was basically ready to move into “production”
+									</p>
+
+									<p>
+										Before actually getting back in the editor I moved to excel and did a plan of all the levels that the game was going to have and the focus of each level.
+										I also took the time to see how many times each weapon was used and the combinations with other weapons. Originally I aimed to have 15 levels but finally decided to only do 10.
+										This meant that the progression between weapons would be more abrupt and the crossbow wouldn't have a lot of game time but it would make the whole game more compact and give me enough time to properly fix the playtested levels.
+									</p>
+
+									<div class="ImageUnderText">
+										<span class="image main"><img src="images/Speed_LevelProgression.png" alt="" /></span>
+										<p>Weapon Combination & Level Progression</p>
+									</div>
+
+
+
+									<p>
+										I also changed my approach when designing the levels.
+										Previously I was using Inkscape to design the levels but I found that this approach wasn’t really effective.
+										Most of the times, when I moved into the editor, the level layout kept the original idea but ended up changing drastically due to iteration and tweaks.
+									</p>
+
+									<p>
+										To help me maintain a fast workflow, I did the level preproduction only using text. Using my level structure I described each level’s main goal, equipment, and different sections and use this as a base to build the level.
+										This allowed me to quickly test things in editor while making sure that I was focusing on the important things.
+									</p>
+
+									<div class="ImageUnderText">
+										<span class="image main"><img src="images/Speed_LevelBreakdown.png" alt="" /></span>
+										<p>Level 9 Breakdown</p>
+									</div>
+
+									<h3 class="major">RETROSPECTIVE</h3>
+									<p>
+										Overall I'm pretty satisfied with how the project ended up being. My biggest regret is not having time to properly playtest the last batch of levels.
+										Right now there are some levels that even without testing them I know they are a bit too hard.
+
+									</p>
+
+									<p>
+										This is mainly due to the fact that I reduced the number of levels and tried to squeeze everything which is probably too much to handle at once.
+										The moment I reduced the number of levels I reduced the scope by leaving some already implemented mechanics out but in retrospective I could've make some of the levels a bit simpler.
+									</p>
+
+									<p>
+										These issues came mainly from the fact that I had to change the game in a somewhat drastic way but I don't regret that change.
+										Games are an iterative proccess and through playtesting and design I changed and removed what didn't fit in order to achieve the experience I was aiming for.
+										In any case, I’m glad that I finally could work on a project focused around movement and speed which has been on my mind for a really long time.
+										I will definitely come back to this kind of game in the future and try a different approach.
+									</p>
+
+									<div class="ImageUnderText">
+										<span class="image main"><img src="images/Speed_Level6.png" alt="" /></span>
+										<p>Level 7 Screenshot</p>
+									</div>
+
+								</div>
+							</div>
+
+					</section>
+
+
+
+
+
+					<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<div class="spotlightProf">
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto: jorgerodriguezdev@gmail.com">jorgerodriguezdev@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/jorgerodriguezjove/">Linkedin Profile</a></li>
+								<li class="icon brands fa-itch-io"><a href="https://jorgerodriguezdev.itch.io/">Itchio Page</a></i>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Jorge Rodriguez Jove.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
